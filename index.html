@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1,
+  maximum-scale=5"
+    />
+
+    <link rel="icon" href="devchallenges.png" />
+
+    <link
+      rel="shortcut icon"
+      type="image/x-icon"
+      href="https://devchallenges.io/"
+    />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link 
+      href="https://fonts.googleapis.com/css2?family=Heebo:wght@800&family=Poppins:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link 
+      rel="stylesheet" 
+      href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+      integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" 
+      crossorigin="anonymous"
+    />
+
+    <link 
+      rel="stylesheet" 
+      href="style.css" 
+      type="text/css" 
+    />
+
+    <title>Edie Homepage CSS Review</title>
+  </head>
+
+  <body>
+    <main class="main">
+      <!-- navbar -->
+      <nav class="navbar">
+        <div class="nav-header">
+          <h1>Edie</h1>
+        </div>
+        <div class="nav-center">
+          <ul class="nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Our Works</a></li>
+            <li><a href="#">Teams</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+        <i class="fas fa-bars"></i>
+      </nav>
+      <section class="section">
+        <div class="section-center">
+          <!-- hero section -->
+          <article class="hero">
+            <div class="hero-header">
+              <p>Unhappy with your website?</p>
+              <h2>We create beautiful and fast web services</h2>
+            </div>
+            <img src="heroImage.jpg" alt="hero image" />
+            <div class="hero-text">
+              <h2>Story, emotion and purpose</h2>
+              <p>We help transform your ideas into real world applications that will outperform your toughest competition and help you
+              achieve your strategic goals in short period of time.</p>
+            </div>
+            <form class="hero-form">
+              <div class="form-control">
+                <label>Want us to contact you?</label>
+                <input type="email" name="email" placeholder="Email">
+                <button class="btn hero-btn btn-blue" type="submit">Join</button>
+              </div>
+            </form>
+          </article>
+          <!-- services section -->
+          <article class="services-container">
+            <h2>We offer high demand services</h2>
+            <div class="services-center">
+              <div class="services" id="services-one">
+                <i class="fas fa-pen-square" id="square-one"></i>
+                <h3>UI/UX Design</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a metus ac nulla consequat aliquet id quis turpis.</p>
+                <button class="btn btn-gray">Get Started</button>
+              </div>
+              <div class="services services-shadow" id="services-two">
+                <i class="fas fa-square" id="square-two"></i>
+                <h3>Front End</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a metus ac nulla consequat aliquet id quis turpis.</p>
+                <button class="btn btn-blue">Get Started</button>
+                <i class="far fa-hand-pointer" id="services-icon-hand"></i>
+              </div>
+              <div class="services" id="services-three">
+                <i class="fas fa-square" id="square-three"></i>
+                <h3>Back End</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a metus ac nulla consequat aliquet id quis turpis.</p>
+                <button class="btn btn-gray">Get Started</button>
+              </div>
+            </div>
+          </article>
+          <!-- ourworks container -->
+          <article class="ourworks-container">
+            <h3>Good design means good business</h3>
+            <div class="ourworks-center">
+              <div class="ourworks-card" id="card-one">
+                <img src="smarthome.jpg" alt="smart home dashboard">
+                <p>Full stack application</p>
+                <h4>Smart home dashboard</h4>
+              </div>
+              <div class="ourworks-card" id="card-two">
+                <img src="onboard.png" alt="onboard">
+                <p>UX/UI design</p>
+                <h4>Onboard application</h4>
+              </div>
+              <div class="ourworks-card" id="card-three">
+                <img src="booking.png" alt="booking">
+                <p>Mobile application</p>
+                <h4>Booking system</h4>
+              </div>
+              <div class="ourworks-card" id="card-four">
+                <img src="juice-product.png" alt="juice product">
+                <p>Front End application</p>
+                <h4>Juice product homepage</h4>
+              </div>
+              <div class="see-more">
+                <p>see more</p>
+                <i class="fas fa-long-arrow-alt-right"></i>
+              </div>
+            </div>
+          </article>
+          <article class="client-container">
+            <div class="team-center">
+              <div class="team-text">
+                <p>Meet the team</p>
+                <h3>We are chilled and a laidback team</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              </div>
+              <div class="team-images">
+                <img class="person-one" src="person1.png" alt="person">
+                <img class="person-two" src="person2.png" alt="person">
+                <img class="person-three" src="person3.png" alt="person">
+              </div>
+            </div>
+            <div class="client-center">
+              <div class="client-text">
+                <p>“Fast and outstanding results. Edie understands their customer’s needs. They have a young and talented team.”</p>
+                <div class="client-card">
+                  <img src="person4.png" alt="person">
+                  <div class="client-card-text">
+                    <h4>Carlos Tran</h4>
+                    <p>The Decorate Gatsby</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="footer-center">
+        <div class="footer-nav">
+          <ul class="footer-nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Our Works</a></li>
+            <li><a href="#">Teams</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-social">
+          <h1>Edie</h1>
+          <div class="social-icons">
+            <img src="instagram.svg" alt="instagram">
+            <img src="linkedin.svg" alt="linkedin">
+            <img src="twitter.svg" alt="twitter">
+          </div>
+        </div>
+        <form class="footer-form">
+          <div class="form-control">
+            <label>Want us to contact you?</label>
+            <input type="email" name="email" placeholder="Email">
+            <button class="btn footer-btn btn-blue" type="submit">Join</button>
+          </div>
+        </form>
+        <div class="footer-author">
+          <p>
+            created by <a href="#">jjrock36</a> - devChallenges.io
+          </p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
